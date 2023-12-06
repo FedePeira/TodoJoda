@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <!--  Main Page  -->
+    <string name="logoTitle">TodoJoda</string>
+    <string name="main_titleLocation">Localidad</string>
+    <string name="main_location">Mar del Plata</string>
+    <string name="btn_next">Siguiente</string>
+
 </resources>

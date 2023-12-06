@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/bottomSheetOwnerPicture"
+        android:id="@+id/backgroundLoginPages"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_primer_fondo"
@@ -21,15 +21,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="TodoJoda"
+        android:text="@string/logoTitle"
         android:fontFamily="@font/sniglet_extrabold"
-        android:textColor="#FFA500"
-        android:textSize="60dp"
+        android:textColor="@color/secondary"
+        android:textSize="68dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="50dp"
         tools:ignore="MissingConstraints" />
+
 
     <TextView
         android:id="@+id/textTitleLocation"
@@ -37,14 +38,12 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_bold"
         android:gravity="center"
-        android:text="Localidad"
-        android:textSize="24dp"
+        android:text="@string/main_titleLocation"
+        android:textSize="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo"
-        app:layout_constraintVertical_bias="0.437" />
-
+        app:layout_constraintTop_toBottomOf="@+id/logo"/>
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -53,21 +52,17 @@
         android:orientation="horizontal"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textTitleLocation"
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:id="@+id/icon_localidad"
-            android:layout_width="wrap_content"
-            android:layout_height="23dp"
+            android:id="@+id/iconLocation"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
             android:src="@drawable/ic_icon_localidad"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="-8dp" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textLocation"
@@ -76,21 +71,21 @@
             android:fontFamily="@font/poppins_regular"
             android:gravity="center"
             android:inputType="textMultiLine"
-            android:text="Mar del Plata"
-            android:textSize="14dp"
+            android:text="@string/main_location"
+            android:textSize="18dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textTitleLocation" />
     </LinearLayout>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/myButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/ic_background_00ced1"
-        android:fontFamily="@font/poppins_bold"
-        android:text="Siguiente"
-        android:textColor="#FFFFFF"
+        android:layout_width="316dp"
+        android:layout_height="54dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/btn_next"
+        android:textColor="@color/btn_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
