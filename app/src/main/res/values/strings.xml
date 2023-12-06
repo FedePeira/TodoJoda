@@ -1,8 +1,15 @@
 <resources>
     <!--  Main Page  -->
-    <string name="logoTitle">TodoJoda</string>
+    <string name="logo_title">TodoJoda</string>
     <string name="main_titleLocation">Localidad</string>
     <string name="main_location">Mar del Plata</string>
     <string name="btn_next">Siguiente</string>
+
+    <!--  Register Page  -->
+    <string name="register_title">Registrarse</string>
+    <string name="register_name">Ingrese su nombre</string>
+
+    <!--  Register Page  -->
+    <string name="categories_title">Categories</string>
 
 </resources>

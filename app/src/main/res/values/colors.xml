@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background">#FFFFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
     <color name="primary">#00CED1</color>
     <color name="secondary">#FFA500</color>
     <color name="input">#D8D8D8</color>
@@ -13,7 +13,7 @@
     <color name="correct">#099D2A</color>
     <color name="placeholder">#D8D8D8</color>
     <color name="text_placeholder">#CAC9C9</color>
-    <color name="image_placeholder">#353535</color>
+    <color name="border_placeholder">#8696BB</color>
     <color name="image_filter">#FF888888</color>
     <color name="transparent">#00000000</color>
 </resources>

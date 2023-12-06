@@ -14,7 +14,7 @@ class MainPageFragment: Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
-/*
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -22,12 +22,11 @@ class MainPageFragment: Fragment() {
     ): View? {
         // Inflate the layout for this fragment
 
-        val v = inflater.inflate(R.layout.fragment_init_container, container, false)
-        val button = v.findViewById<Button>(R.id.get_started_button)
+        val v = inflater.inflate(R.layout.fragment_main_page, container, false)
+        val button = v.findViewById<Button>(R.id.mainButton)
         button.setOnClickListener {
-            findNavController().navigate(R.id.action_initContainerFragment3_to_loginFragment)
+            findNavController().navigate(R.id.action_mainPageFragment_to_registerFragment)
         }
         return v
     }
-    */
 }
