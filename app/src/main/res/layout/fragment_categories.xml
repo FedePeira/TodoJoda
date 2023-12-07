@@ -32,6 +32,97 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/registerTitle" />
 
+    <GridLayout
+        android:id="@+id/containerCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="10px"
+        app:layout_constraintBottom_toTopOf="@+id/mainButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTitleLocation">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/categoryAmigos"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15px"
+            android:background="@drawable/category_background"
+            android:drawableTop="@drawable/ic_background_friends"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/btn_next"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/categoryPrevia"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15px"
+            android:background="@drawable/category_background_white"
+            android:drawableTop="@drawable/ic_background_previa"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/btn_next"
+            android:textAllCaps="false"
+            android:textColor="@color/secondary" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/categoryBoliche"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15px"
+            android:drawableTop="@drawable/ic_background_boliche"
+            android:background="@drawable/category_background_white"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/btn_next"
+            android:textAllCaps="false"
+            android:textColor="@color/secondary" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/categoryEncuentros"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15px"
+            android:drawableTop="@drawable/ic_background_encuentro"
+            android:background="@drawable/category_background"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/btn_next"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/categoryRestaurante"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15px"
+            android:drawableTop="@drawable/ic_background_restaurante"
+            android:background="@drawable/category_background"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/btn_next"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/categoryPlaya"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15px"
+            android:drawableTop="@drawable/ic_background_playa"
+            android:background="@drawable/category_background_white"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/btn_next"
+            android:textAllCaps="false"
+            android:textColor="@color/secondary" />
+
+    </GridLayout>
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/mainButton"
         android:layout_width="316dp"
@@ -43,5 +134,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textTitleLocation" />
+        app:layout_constraintTop_toBottomOf="@+id/containerCategories" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,6 @@
     <string name="register_name">Ingrese su nombre</string>
 
     <!--  Register Page  -->
-    <string name="categories_title">Categories</string>
+    <string name="categories_title">Categorias</string>
 
 </resources>
