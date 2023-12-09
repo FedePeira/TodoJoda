@@ -3,8 +3,8 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/ic_icon_love"
+            android:src="@drawable/ic_icon_whatsapp"
             android:width="100dp"
-            android:height="100dp" />
+            android:height="100dp"/>
     </item>
 </layer-list>

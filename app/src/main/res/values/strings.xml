@@ -9,7 +9,20 @@
     <string name="register_title">Registrarse</string>
     <string name="register_name">Ingrese su nombre</string>
 
-    <!--  Register Page  -->
+    <!--  Categories Page  -->
+    <string name="sub_title">Elegie lo que Buscas</string>
     <string name="categories_title">Categorias</string>
+    <string name="amigos">Amigos</string>
+    <string name="previa">Previa</string>
+    <string name="boliche">Boliche</string>
+    <string name="encuentros">Encuentros</string>
+    <string name="restaurante">Restaurantes</string>
+    <string name="playa">Playa</string>
+
+    <!--  Boliche Page  -->
+    <string name="boliche_title">Boliche</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="passline">Passline</string>
+
 
 </resources>

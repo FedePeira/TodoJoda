@@ -13,7 +13,7 @@
         android:layout_marginTop="80dp"
         android:fontFamily="@font/poppins_bold"
         android:gravity="center"
-        android:text="@string/categories_title"
+        android:text="@string/boliche_title"
         android:textColor="@color/primary"
         android:textSize="42dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +33,49 @@
         app:layout_constraintTop_toBottomOf="@+id/categoriesTitle" />
 
     <GridLayout
-        android:id="@+id/containerCategories"
+        android:id="@+id/containerBoliches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="10px"
+        app:layout_constraintBottom_toTopOf="@+id/containerWhatsapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSubTitle"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bolichePassline"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15px"
+            android:background="@drawable/category_background"
+            android:drawableTop="@drawable/ic_background_passline"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/passline"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bolicheBoliches"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="15px"
+            android:background="@drawable/category_background_white"
+            android:drawableTop="@drawable/ic_background_boliche"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/boliche"
+            android:textAllCaps="false"
+            android:textColor="@color/secondary" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/containerWhatsapp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:columnCount="2"
@@ -44,83 +86,19 @@
         app:layout_constraintTop_toBottomOf="@+id/textSubTitle">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/categoryAmigos"
+            android:id="@+id/bolicheWhatsapp"
             android:layout_width="120dp"
             android:layout_height="120dp"
+            android:layout_row="0"
+            android:layout_column="0"
             android:layout_margin="15px"
             android:background="@drawable/category_background"
-            android:drawableTop="@drawable/ic_background_friends"
+            android:drawableTop="@drawable/ic_background_whatsapp"
             android:fontFamily="@font/poppins_regular"
             android:gravity="bottom|center_horizontal"
-            android:text="@string/amigos"
+            android:text="@string/whatsapp"
             android:textAllCaps="false"
             android:textColor="@color/btn_text" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/categoryPrevia"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:layout_margin="15px"
-            android:background="@drawable/category_background_white"
-            android:drawableTop="@drawable/ic_background_previa"
-            android:fontFamily="@font/poppins_regular"
-            android:gravity="bottom|center_horizontal"
-            android:text="@string/previa"
-            android:textAllCaps="false"
-            android:textColor="@color/secondary" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/categoryBoliche"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:layout_margin="15px"
-            android:background="@drawable/category_background_white"
-            android:drawableTop="@drawable/ic_background_boliche"
-            android:fontFamily="@font/poppins_regular"
-            android:gravity="bottom|center_horizontal"
-            android:text="@string/boliche"
-            android:textAllCaps="false"
-            android:textColor="@color/secondary" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/categoryEncuentros"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:layout_margin="15px"
-            android:background="@drawable/category_background"
-            android:drawableTop="@drawable/ic_background_encuentro"
-            android:fontFamily="@font/poppins_regular"
-            android:gravity="bottom|center_horizontal"
-            android:text="@string/encuentros"
-            android:textAllCaps="false"
-            android:textColor="@color/btn_text" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/categoryRestaurante"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:layout_margin="15px"
-            android:background="@drawable/category_background"
-            android:drawableTop="@drawable/ic_background_restaurante"
-            android:fontFamily="@font/poppins_regular"
-            android:gravity="bottom|center_horizontal"
-            android:text="@string/restaurante"
-            android:textAllCaps="false"
-            android:textColor="@color/btn_text" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/categoryPlaya"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:layout_margin="15px"
-            android:background="@drawable/category_background_white"
-            android:drawableTop="@drawable/ic_background_playa"
-            android:fontFamily="@font/poppins_regular"
-            android:gravity="bottom|center_horizontal"
-            android:text="@string/playa"
-            android:textAllCaps="false"
-            android:textColor="@color/secondary" />
-
     </GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
