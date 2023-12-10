@@ -27,11 +27,14 @@ class RegisterFragment: Fragment() {
             if (name.isEmpty()) {
                 editTextname.setError("Este campo es obligatorio")
             } else {
-                val intent = Intent(requireContext(), LoginActivity::class.java)
+                // Inicializacion de Boliche Fragment
+                /*
+                val intent = Intent(requireContext(), MainActivity::class.java)
                 intent.putExtra("name", name)
                 startActivity(intent)
+                */
+                findNavController().navigate(R.id.action_registerFragment_to_categoriesFragment)
             }
-            findNavController().navigate(R.id.action_registerFragment_to_categoriesFragment)
         }
         return v
     }

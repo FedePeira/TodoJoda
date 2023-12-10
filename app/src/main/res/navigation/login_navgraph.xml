@@ -22,5 +22,13 @@
     <fragment
         android:id="@+id/categoriesFragment"
         android:name="com.example.myapplication.loginFragments.CategoriesFragment"
-        android:label="CategoriesFragment" />
+        android:label="CategoriesFragment" >
+        <action
+            android:id="@+id/action_categoriesFragment_to_bolicheFragment"
+            app:destination="@id/bolicheFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bolicheFragment"
+        android:name="com.example.myapplication.loginFragments.BolicheFragment"
+        android:label="BolicheFragment" />
 </navigation>
