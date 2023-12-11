@@ -24,5 +24,10 @@
     <string name="whatsapp">Whatsapp</string>
     <string name="passline">Passline</string>
 
+    <!--  Boliche Home Page  -->
+    <string name="selection">Seleccion</string>
+    <string name="hello">Hola</string>
+    <string name="user_name">Nombre del Cliente</string>
+
 
 </resources>

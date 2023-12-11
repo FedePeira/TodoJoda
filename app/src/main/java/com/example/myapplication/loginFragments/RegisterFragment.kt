@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.myapplication.BolicheActivity
 import com.example.myapplication.LoginActivity
 import com.example.myapplication.R
 
@@ -27,12 +28,9 @@ class RegisterFragment: Fragment() {
             if (name.isEmpty()) {
                 editTextname.setError("Este campo es obligatorio")
             } else {
-                // Inicializacion de Boliche Fragment
-                /*
-                val intent = Intent(requireContext(), MainActivity::class.java)
-                intent.putExtra("name", name)
+                val intent = Intent(activity, BolicheActivity::class.java)
+                intent.putExtra("userName", name)
                 startActivity(intent)
-                */
                 findNavController().navigate(R.id.action_registerFragment_to_categoriesFragment)
             }
         }
