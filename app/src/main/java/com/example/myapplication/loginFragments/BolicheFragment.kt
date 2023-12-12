@@ -22,8 +22,10 @@ class BolicheFragment: Fragment() {
         // Inflate the layout for this fragment
         val v = inflater.inflate(R.layout.fragment_boliche, container, false)
         val btn_home_boliche = v.findViewById<AppCompatButton>(R.id.bolicheBoliches)
+        val name = arguments?.getString("name")
         btn_home_boliche.setOnClickListener {
             val intent = Intent(requireContext(), BolicheActivity::class.java)
+            intent.putExtra("name", name)
             startActivity(intent)
         }
         return v

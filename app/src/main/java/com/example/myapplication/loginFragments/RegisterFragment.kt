@@ -25,13 +25,11 @@ class RegisterFragment: Fragment() {
         button.setOnClickListener {
             val editTextname = v.findViewById<EditText>(R.id.editTextName)
             val name = editTextname.text.toString()
+            val action = RegisterFragmentDirections.actionRegisterFragmentToCategoriesFragment(name)
             if (name.isEmpty()) {
                 editTextname.setError("Este campo es obligatorio")
             } else {
-                val intent = Intent(activity, BolicheActivity::class.java)
-                intent.putExtra("userName", name)
-                startActivity(intent)
-                findNavController().navigate(R.id.action_registerFragment_to_categoriesFragment)
+                findNavController().navigate(action)
             }
         }
         return v

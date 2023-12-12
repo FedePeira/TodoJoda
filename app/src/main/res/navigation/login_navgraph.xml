@@ -17,18 +17,31 @@
         android:label="RegisterFragment" >
         <action
             android:id="@+id/action_registerFragment_to_categoriesFragment"
-            app:destination="@id/categoriesFragment" />
+            app:destination="@id/categoriesFragment" >
+        </action>
+        <argument
+            android:name="name"
+            app:argType="string" />
+
     </fragment>
     <fragment
         android:id="@+id/categoriesFragment"
         android:name="com.example.myapplication.loginFragments.CategoriesFragment"
         android:label="CategoriesFragment" >
+        <argument
+            android:name="name"
+            app:argType="string" />
         <action
             android:id="@+id/action_categoriesFragment_to_bolicheFragment"
-            app:destination="@id/bolicheFragment" />
+            app:destination="@id/bolicheFragment" >
+            <argument
+                android:name="name"
+                app:argType="string" />
+        </action>
     </fragment>
     <fragment
         android:id="@+id/bolicheFragment"
         android:name="com.example.myapplication.loginFragments.BolicheFragment"
-        android:label="BolicheFragment" />
+        android:label="BolicheFragment" >
+    </fragment>
 </navigation>

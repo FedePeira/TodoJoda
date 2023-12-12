@@ -22,8 +22,10 @@ class CategoriesFragment: Fragment() {
 
         val v = inflater.inflate(R.layout.fragment_categories, container, false)
         val btn_category_boliche = v.findViewById<AppCompatButton>(R.id.categoryBoliche)
+        val name = arguments?.getString("name")
+        val action = CategoriesFragmentDirections.actionCategoriesFragmentToBolicheFragment(name.toString())
         btn_category_boliche.setOnClickListener {
-            findNavController().navigate(R.id.action_categoriesFragment_to_bolicheFragment)
+            findNavController().navigate(action)
         }
         return v
     }
