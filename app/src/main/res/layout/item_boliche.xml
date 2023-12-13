@@ -31,10 +31,10 @@
                 android:textAppearance="?attr/textAppearanceHeadline6" />
 
             <TextView
-                android:id="@+id/itemSubtitle"
+                android:id="@+id/itemDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Subtitulo"
+                android:text="Descripcion"
                 android:textColor="@color/white"
                 android:fontFamily="@font/poppins_regular" />
 
@@ -49,7 +49,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:numStars="5"
-                    android:rating="3"
+                    android:rating="5"
                     android:stepSize="1"
                     android:progressTint="#099D2A" />
 

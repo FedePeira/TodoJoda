@@ -24,7 +24,6 @@ class BolicheActivity: AppCompatActivity() {
         val userNameTextView = appBarLayout.findViewById<TextView>(R.id.userName)
 
         val name = intent.getStringExtra("name")
-        userNameTextView.text = name
 
         val bundle = bundleOf("username" to name!!)
 
@@ -50,7 +49,7 @@ class BolicheActivity: AppCompatActivity() {
                 else -> false
             }
         }
-
+        userNameTextView.text = name
     }
 
 
