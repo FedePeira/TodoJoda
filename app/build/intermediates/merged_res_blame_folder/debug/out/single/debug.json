@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\font_sniglet.ttf.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\font\\sniglet.ttf"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_background_boliche.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_background_boliche.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_login_background.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_login_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_next1.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_next1.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_background_whatsapp.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_background_whatsapp.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_cambiar.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_cambiar.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_primer_fondo.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_primer_fondo.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-merged_res-47:/layout_fragment_homeboliche.xml.flat",
+        "source": "com.example.myapplication.app-main-49:/layout/fragment_homeboliche.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\layout_fragment_main_page.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\layout\\fragment_main_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_background_previa.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_background_previa.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_friends.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_friends.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_background_encuentro.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_background_encuentro.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_category_background_white.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\category_background_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\font_sniglet_extrabold.ttf.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\font\\sniglet_extrabold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_category_background.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\category_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\layout_item_boliche.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\layout\\item_boliche.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_background_passline.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_background_passline.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_playa.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_playa.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_rounded_placeholder.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_rounded_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_previa.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_previa.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_next.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_next.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_background_playa.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_background_playa.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\layout_fragment_register.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\layout_activity_boliche.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\layout\\activity_boliche.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_background_color_selector.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_background_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_boliche.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_boliche.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\layout_fragment_categories.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\layout\\fragment_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_background_friends.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_background_friends.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_passline.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_passline.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\menu_bottom_bar.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\menu\\bottom_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\font_poppins_bold.ttf.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\font\\poppins_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_localidad.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_localidad.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_logo.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_whatsapp.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_whatsapp.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_color_selector.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_person.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_person.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_love.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_love.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_background_restaurante.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_background_restaurante.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\layout_fragment_homeboliche.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\layout\\fragment_homeboliche.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\font_poppins_regular.ttf.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\font\\poppins_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\navigation_login_navgraph.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\navigation\\login_navgraph.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\layout_fragment_boliche.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\layout\\fragment_boliche.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_food.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_food.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\navigation_boliche_navgraph.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\navigation\\boliche_navgraph.xml"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\drawable_ic_icon_home.png.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\drawable\\ic_icon_home.png"
+    },
+    {
+        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-merged_res-47:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    }
+]

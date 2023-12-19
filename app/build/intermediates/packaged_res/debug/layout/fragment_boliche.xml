@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/categoriesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="@string/boliche_title"
+        android:textColor="@color/primary"
+        android:textSize="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textSubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center"
+        android:text="@string/sub_title"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoriesTitle" />
+
+    <GridLayout
+        android:id="@+id/containerBoliches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="10px"
+        app:layout_constraintBottom_toTopOf="@+id/containerWhatsapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSubTitle"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bolichePassline"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="15px"
+            android:background="@drawable/category_background"
+            android:drawableTop="@drawable/ic_background_passline"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/passline"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bolicheBoliches"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="15px"
+            android:background="@drawable/category_background_white"
+            android:drawableTop="@drawable/ic_background_boliche"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/boliche"
+            android:textAllCaps="false"
+            android:textColor="@color/secondary" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/containerWhatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="10px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSubTitle">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bolicheWhatsapp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="15px"
+            android:background="@drawable/category_background"
+            android:drawableTop="@drawable/ic_background_whatsapp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/whatsapp"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_text" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

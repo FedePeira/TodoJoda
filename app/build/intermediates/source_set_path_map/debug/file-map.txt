@@ -1,0 +1,50 @@
+com.example.myapplication.app-navigation-fragment-2.7.5-0 C:\Users\fedep\.gradle\caches\transforms-3\08e4266109b73d86a66c836a826fa039\transformed\navigation-fragment-2.7.5\res
+com.example.myapplication.app-lifecycle-process-2.6.2-1 C:\Users\fedep\.gradle\caches\transforms-3\12b759a496e202c30bcb9c00b1f575f2\transformed\lifecycle-process-2.6.2\res
+com.example.myapplication.app-drawerlayout-1.1.1-2 C:\Users\fedep\.gradle\caches\transforms-3\1874c3aa84bb5359f00719283534ca9d\transformed\drawerlayout-1.1.1\res
+com.example.myapplication.app-activity-1.8.0-3 C:\Users\fedep\.gradle\caches\transforms-3\2c47a63bd49da051eb03a11a8a8b796a\transformed\activity-1.8.0\res
+com.example.myapplication.app-appcompat-1.6.1-4 C:\Users\fedep\.gradle\caches\transforms-3\30687c6bac80310a4f44019ee1b44b9d\transformed\appcompat-1.6.1\res
+com.example.myapplication.app-core-runtime-2.2.0-5 C:\Users\fedep\.gradle\caches\transforms-3\329cef85b7f5450f7ba31fdea03347c0\transformed\core-runtime-2.2.0\res
+com.example.myapplication.app-lifecycle-livedata-2.6.2-6 C:\Users\fedep\.gradle\caches\transforms-3\3b64cd2f25563bde2fda6cb2f328edfb\transformed\lifecycle-livedata-2.6.2\res
+com.example.myapplication.app-navigation-runtime-2.7.5-7 C:\Users\fedep\.gradle\caches\transforms-3\437253956004834c6bb842ebc3c07158\transformed\navigation-runtime-2.7.5\res
+com.example.myapplication.app-transition-1.4.1-8 C:\Users\fedep\.gradle\caches\transforms-3\46d1a86863ea2818981bc2bdaae20795\transformed\transition-1.4.1\res
+com.example.myapplication.app-savedstate-ktx-1.2.1-9 C:\Users\fedep\.gradle\caches\transforms-3\481a129519cb8065d7e790e03851c16b\transformed\savedstate-ktx-1.2.1\res
+com.example.myapplication.app-appcompat-resources-1.6.1-10 C:\Users\fedep\.gradle\caches\transforms-3\49c03bf408508f59be94a64da7ed5761\transformed\appcompat-resources-1.6.1\res
+com.example.myapplication.app-savedstate-1.2.1-11 C:\Users\fedep\.gradle\caches\transforms-3\4a5d42483f52463860f486e8fdf8192e\transformed\savedstate-1.2.1\res
+com.example.myapplication.app-lifecycle-runtime-ktx-2.6.2-12 C:\Users\fedep\.gradle\caches\transforms-3\51713b1adb4f20e1390d6ed97e48d540\transformed\lifecycle-runtime-ktx-2.6.2\res
+com.example.myapplication.app-activity-ktx-1.8.0-13 C:\Users\fedep\.gradle\caches\transforms-3\54fec3ed9541a652ecc475af3bc544b3\transformed\activity-ktx-1.8.0\res
+com.example.myapplication.app-cardview-1.0.0-14 C:\Users\fedep\.gradle\caches\transforms-3\550ed8d72aff9286145fa078e21f7617\transformed\cardview-1.0.0\res
+com.example.myapplication.app-window-1.0.0-15 C:\Users\fedep\.gradle\caches\transforms-3\5688efdd8ec02800854824c6e673943c\transformed\window-1.0.0\res
+com.example.myapplication.app-emoji2-1.2.0-16 C:\Users\fedep\.gradle\caches\transforms-3\6096b0dda8c9bbd015638fb763d6f43a\transformed\emoji2-1.2.0\res
+com.example.myapplication.app-emoji2-views-helper-1.2.0-17 C:\Users\fedep\.gradle\caches\transforms-3\6560561f116331d7f826893f93830352\transformed\emoji2-views-helper-1.2.0\res
+com.example.myapplication.app-lifecycle-viewmodel-2.6.2-18 C:\Users\fedep\.gradle\caches\transforms-3\7b7270f608912268a78a7f5ce4283e88\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.myapplication.app-navigation-common-2.7.5-19 C:\Users\fedep\.gradle\caches\transforms-3\7c666a66f6cad1d30207259518690704\transformed\navigation-common-2.7.5\res
+com.example.myapplication.app-navigation-common-ktx-2.7.5-20 C:\Users\fedep\.gradle\caches\transforms-3\7f4fb37631534949b78dc1288b327ebc\transformed\navigation-common-ktx-2.7.5\res
+com.example.myapplication.app-lifecycle-runtime-2.6.2-21 C:\Users\fedep\.gradle\caches\transforms-3\829d1995cf8f48e961a249c7eb776982\transformed\lifecycle-runtime-2.6.2\res
+com.example.myapplication.app-fragment-1.6.2-22 C:\Users\fedep\.gradle\caches\transforms-3\89aff87708d6dba99ce2d193a1698713\transformed\fragment-1.6.2\res
+com.example.myapplication.app-annotation-experimental-1.3.0-23 C:\Users\fedep\.gradle\caches\transforms-3\8a721012e8579ab7215fc3647726c464\transformed\annotation-experimental-1.3.0\res
+com.example.myapplication.app-coordinatorlayout-1.1.0-24 C:\Users\fedep\.gradle\caches\transforms-3\8ac3be7163172d1ca4bbe15c781a6f39\transformed\coordinatorlayout-1.1.0\res
+com.example.myapplication.app-startup-runtime-1.1.1-25 C:\Users\fedep\.gradle\caches\transforms-3\94a95414dd8b33f8d59cfc1e10c73a2c\transformed\startup-runtime-1.1.1\res
+com.example.myapplication.app-lifecycle-livedata-core-2.6.2-26 C:\Users\fedep\.gradle\caches\transforms-3\99af87e02495f3ca2d5a86bdca6c2a94\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.myapplication.app-lifecycle-viewmodel-ktx-2.6.2-27 C:\Users\fedep\.gradle\caches\transforms-3\9d5da0ba3c45dfc9cd950fdaae170ff8\transformed\lifecycle-viewmodel-ktx-2.6.2\res
+com.example.myapplication.app-core-ktx-1.9.0-28 C:\Users\fedep\.gradle\caches\transforms-3\ab614f0e6440cb337cd56915e5b24400\transformed\core-ktx-1.9.0\res
+com.example.myapplication.app-recyclerview-1.1.0-29 C:\Users\fedep\.gradle\caches\transforms-3\ae6140ba9def6b81762742c7a74a8265\transformed\recyclerview-1.1.0\res
+com.example.myapplication.app-navigation-fragment-ktx-2.7.5-30 C:\Users\fedep\.gradle\caches\transforms-3\b853bb8d371b7519a485804f11860213\transformed\navigation-fragment-ktx-2.7.5\res
+com.example.myapplication.app-profileinstaller-1.3.0-31 C:\Users\fedep\.gradle\caches\transforms-3\ba685c113129519f68ae739be395af1d\transformed\profileinstaller-1.3.0\res
+com.example.myapplication.app-constraintlayout-2.1.4-32 C:\Users\fedep\.gradle\caches\transforms-3\c655b657a436a6a46fbb1cb64826e67f\transformed\constraintlayout-2.1.4\res
+com.example.myapplication.app-navigation-ui-2.7.5-33 C:\Users\fedep\.gradle\caches\transforms-3\c9037ae97dbfa741c58fe1acfff5ef01\transformed\navigation-ui-2.7.5\res
+com.example.myapplication.app-lifecycle-livedata-core-ktx-2.6.2-34 C:\Users\fedep\.gradle\caches\transforms-3\cbe9ab1b965599b935062332629b9e39\transformed\lifecycle-livedata-core-ktx-2.6.2\res
+com.example.myapplication.app-core-1.9.0-35 C:\Users\fedep\.gradle\caches\transforms-3\d22478923818e98c33e74b154831df47\transformed\core-1.9.0\res
+com.example.myapplication.app-material-1.10.0-36 C:\Users\fedep\.gradle\caches\transforms-3\d4a9d4d51986566abbf1bae770293492\transformed\material-1.10.0\res
+com.example.myapplication.app-fragment-ktx-1.6.2-37 C:\Users\fedep\.gradle\caches\transforms-3\ddb94ec067c75210ab9cf21a4a3a6e1f\transformed\fragment-ktx-1.6.2\res
+com.example.myapplication.app-navigation-runtime-ktx-2.7.5-38 C:\Users\fedep\.gradle\caches\transforms-3\e024294a750ab6280ea7893890d24c83\transformed\navigation-runtime-ktx-2.7.5\res
+com.example.myapplication.app-viewpager2-1.0.0-39 C:\Users\fedep\.gradle\caches\transforms-3\e46ffce52f2363995cd01ba7de2d99bf\transformed\viewpager2-1.0.0\res
+com.example.myapplication.app-slidingpanelayout-1.2.0-40 C:\Users\fedep\.gradle\caches\transforms-3\e9007b37d62f42efe6c56c8e527ae973\transformed\slidingpanelayout-1.2.0\res
+com.example.myapplication.app-navigation-ui-ktx-2.7.5-41 C:\Users\fedep\.gradle\caches\transforms-3\fdab75c62812f017626cf55b035c104a\transformed\navigation-ui-ktx-2.7.5\res
+com.example.myapplication.app-lifecycle-viewmodel-savedstate-2.6.2-42 C:\Users\fedep\.gradle\caches\transforms-3\fe021b576292091143504625a6b7d170\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.myapplication.app-pngs-43 D:\Fede Ort\Portafolio\AndroidStudio\TodoJoda\app\build\generated\res\pngs\debug
+com.example.myapplication.app-resValues-44 D:\Fede Ort\Portafolio\AndroidStudio\TodoJoda\app\build\generated\res\resValues\debug
+com.example.myapplication.app-packageDebugResources-45 D:\Fede Ort\Portafolio\AndroidStudio\TodoJoda\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.myapplication.app-packageDebugResources-46 D:\Fede Ort\Portafolio\AndroidStudio\TodoJoda\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.myapplication.app-merged_res-47 D:\Fede Ort\Portafolio\AndroidStudio\TodoJoda\app\build\intermediates\merged_res\debug
+com.example.myapplication.app-debug-48 D:\Fede Ort\Portafolio\AndroidStudio\TodoJoda\app\src\debug\res
+com.example.myapplication.app-main-49 D:\Fede Ort\Portafolio\AndroidStudio\TodoJoda\app\src\main\res
