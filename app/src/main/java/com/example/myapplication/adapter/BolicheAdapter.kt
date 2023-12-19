@@ -22,7 +22,7 @@ class BolicheAdapter(private val myDataset: List<Boliche>) :
         val boliche = myDataset[position]
         holder.title.text = boliche.title
         holder.description.text = boliche.description
-        holder.rating.text = boliche.rating.toString()
+        holder.rating.setRating(boliche.rating.toFloat())
     }
 
     override fun getItemCount() = myDataset.size

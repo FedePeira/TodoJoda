@@ -36,14 +36,7 @@ class BolicheHomeFragment: Fragment() {
 
         // RecyclerView
         recyclerView = v.findViewById(R.id.bolichesListRecycler)
-
-        /*
-        val timeOpen: Int,
-        val timeClose: Int,
-        val celNumber: Int,
-        val linkWebsite: String,
-        val opinions: String,
-        */
+        recyclerView.isNestedScrollingEnabled = true
 
         // Opiniones de Boliches
         val opiniones = arrayListOf<String>()
