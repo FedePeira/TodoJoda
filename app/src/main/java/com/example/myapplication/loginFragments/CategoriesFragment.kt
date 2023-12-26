@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.myapplication.BolicheActivity
 import com.example.myapplication.R
+import setHoverEffect
 
 class CategoriesFragment: Fragment() {
     override fun onCreateView(
@@ -21,12 +22,27 @@ class CategoriesFragment: Fragment() {
         // Inflate the layout for this fragment
 
         val v = inflater.inflate(R.layout.fragment_categories, container, false)
-        val btn_category_boliche = v.findViewById<AppCompatButton>(R.id.categoryBoliche)
+        val categoryBoliche = v.findViewById<AppCompatButton>(R.id.categoryBoliche)
+        val categoryAmigos = v.findViewById<AppCompatButton>(R.id.categoryAmigos)
+        val categoryPrevia = v.findViewById<AppCompatButton>(R.id.categoryPrevia)
+        val categoryEncuentros = v.findViewById<AppCompatButton>(R.id.categoryEncuentros)
+        val categoryRestaurante = v.findViewById<AppCompatButton>(R.id.categoryRestaurante)
+        val categoryPlaya = v.findViewById<AppCompatButton>(R.id.categoryPlaya)
         val name = arguments?.getString("name")
         val action = CategoriesFragmentDirections.actionCategoriesFragmentToBolicheFragment(name.toString())
-        btn_category_boliche.setOnClickListener {
+
+        categoryBoliche.setOnClickListener {
             findNavController().navigate(action)
         }
+
+        // Animations
+        categoryBoliche.setHoverEffect()
+        categoryAmigos.setHoverEffect()
+        categoryPrevia.setHoverEffect()
+        categoryEncuentros.setHoverEffect()
+        categoryRestaurante.setHoverEffect()
+        categoryPlaya.setHoverEffect()
+
         return v
     }
 }

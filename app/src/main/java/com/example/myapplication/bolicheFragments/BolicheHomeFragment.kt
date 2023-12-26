@@ -81,11 +81,11 @@ class BolicheHomeFragment: Fragment() {
         // Agregar datos a las listas
         boliche1.stats.add("Estadística 1")
         boliche1.opinions.add("Opinión 1")
-        boliche1.images.add("Imagen 1")
+        boliche1.images.add("samsara_image")
 
         boliche2.stats.add("Estadística 2")
         boliche2.opinions.add("Opinión 2")
-        boliche2.images.add("Imagen 2")
+        boliche2.images.add("samsara_image")
 
         boliches.add(boliche1)
         boliches.add(boliche2)

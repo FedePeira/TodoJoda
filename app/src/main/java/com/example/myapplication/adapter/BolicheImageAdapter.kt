@@ -21,10 +21,14 @@ class BolicheImageAdapter(private val images: List<String>, private val context:
     }
 
     override fun onBindViewHolder(holder: ImageViewHolder, position: Int) {
-        context?.let {
-            Glide.with(it)
-                .load(images[position])
-                .into(holder.imageView)
+        val imageResourceName = images[position]
+        val imageResourceId = context?.resources?.getIdentifier(imageResourceName, "drawable", context.packageName)
+        imageResourceId?.let { id ->
+            context?.let { ctx ->
+                Glide.with(ctx)
+                    .load(id)
+                    .into(holder.imageView)
+            }
         }
     }
 

@@ -60,6 +60,8 @@ class BolicheDetailFragment : Fragment() {
         val websiteTextView = view.findViewById<TextView>(R.id.website)
         val opineButton = view.findViewById<AppCompatButton>(R.id.opineButton)
         val opinionsButton = view.findViewById<AppCompatButton>(R.id.opinionsButton)
+        val leftArrow = view.findViewById<ImageView>(R.id.leftArrow)
+        val rightArrow = view.findViewById<ImageView>(R.id.rightArrow)
 
         // Insert Title
         bolicheName.text = boliche.title
@@ -117,6 +119,23 @@ class BolicheDetailFragment : Fragment() {
 
         // Adapter Images
         viewPagerImage.adapter = BolicheImageAdapter(boliche.images, context)
+
+        // Images Arrows
+        leftArrow.setOnClickListener {
+            if (viewPagerImage.currentItem == 0) {
+                viewPagerImage.currentItem = boliche.images.size - 1
+            } else {
+                viewPagerImage.currentItem -= 1
+            }
+        }
+
+        rightArrow.setOnClickListener {
+            if (viewPagerImage.currentItem == boliche.images.size - 1) {
+                viewPagerImage.currentItem = 0
+            } else {
+                viewPagerImage.currentItem += 1
+            }
+        }
     }
 
     /*
