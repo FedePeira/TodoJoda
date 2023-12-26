@@ -30,6 +30,14 @@ class BolicheActivity: AppCompatActivity() {
         navHostFragment = supportFragmentManager.findFragmentById(R.id.navHost) as NavHostFragment
         navHostFragment.navController.setGraph(R.navigation.boliche_navgraph, bundle)
 
+        navHostFragment.navController.addOnDestinationChangedListener { _, destination, _ ->
+            if (destination.id == R.id.bolicheDetailFragment) {
+                appBarLayout.visibility = View.GONE
+            } else {
+                appBarLayout.visibility = View.VISIBLE
+            }
+        }
+
         bottomNavView = findViewById(R.id.bottomBar)
         NavigationUI.setupWithNavController(bottomNavView, navHostFragment.navController)
         bottomNavView.setOnItemSelectedListener  { item ->

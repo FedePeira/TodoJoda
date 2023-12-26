@@ -12,14 +12,17 @@ import com.example.myapplication.models.Boliche
 class BolicheAdapter(private val ids: List<Int>) :
     RecyclerView.Adapter<BolicheViewHolder>() {
 
+    // Variable Dao
     private lateinit var bolicheDao: BolicheDao
 
     override fun onCreateViewHolder(parent: ViewGroup,
                                     viewType: Int): BolicheViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
         val id = ids[viewType]
+        // Inicializamos AppDatabase
         val appDatabase = AppDatabase.getDatabase(parent.context)
         bolicheDao = appDatabase.BolicheDao()
+        // Le pasamos Id al ViewHolder
         var bolicheViewHolder = BolicheViewHolder(layoutInflater.inflate(R.layout.item_boliche, parent, false), id = id)
         return bolicheViewHolder
     }
