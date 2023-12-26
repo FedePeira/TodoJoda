@@ -62,7 +62,7 @@
                     android:layout_marginStart="10dp"/>
 
                 <ImageView
-                    android:id="@+id/nextIcon"
+                    android:id="@+id/openDetail"
                     android:layout_width="14dp"
                     android:layout_height="14dp"
                     android:layout_gravity="end"
