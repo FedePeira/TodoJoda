@@ -33,6 +33,15 @@
             android:layout_centerVertical="true"
             android:src="@drawable/ic_icon_rightarrow" />
 
+        <ImageView
+            android:id="@+id/loadingImages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_icon_loading"
+            android:visibility="gone" />
+
     </RelativeLayout>
 
     <FrameLayout
@@ -70,7 +79,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_bold"
-                        android:text="Nombre"
+                        android:text=""
                         android:textColor="@color/text"
                         android:textSize="24sp" />
 
@@ -79,11 +88,19 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/poppins_regular"
-                        android:text="Buenos Aires"
+                        android:text=""
                         android:textColor="@color/text_light"
                         android:drawableStart="@drawable/ic_icon_location" />
 
                 </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/loadingDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_icon_loading2"
+                    android:visibility="gone" />
             </LinearLayout>
 
             <LinearLayout
@@ -93,11 +110,15 @@
                 android:orientation="vertical"
                 android:paddingHorizontal="16dp"
                 android:layout_marginStart="10dp">
-                <TextView
-                    android:id="@+id/primerStat"
+
+
+                <ImageView
+                    android:id="@+id/loadingStats"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="....."/>
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_icon_loading2"
+                    android:visibility="gone" />
             </LinearLayout>
 
             <LinearLayout
@@ -112,7 +133,7 @@
                     android:id="@+id/scheduleStatus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Abierto ahora"
+                    android:text=""
                     android:textColor="@color/correct"
                     android:fontFamily="@font/poppins_bold"
                     android:layout_marginEnd="10dp"/>
@@ -121,7 +142,7 @@
                     android:id="@+id/schedule"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Horario: 9:00 AM - 5:00 PM" />
+                    android:text="" />
             </LinearLayout>
 
 
@@ -149,7 +170,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins_bold"
-                            android:text="@string/contact_detail"
+                            android:text=""
                             android:textColor="@color/text" />
 
                         <TextView
@@ -157,12 +178,20 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/poppins_regular"
-                            android:text="@string/website_detail"
+                            android:text=""
                             android:textColor="@color/text_light"
                             android:drawableEnd="@drawable/ic_icon_arrow"
                             />
+
                     </LinearLayout>
 
+                    <ImageView
+                        android:id="@+id/loadingContact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_icon_loading2"
+                        android:visibility="gone" />
                 </LinearLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout

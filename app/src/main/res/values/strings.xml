@@ -31,8 +31,6 @@
 
     <!--  Boliche Detail Page  -->
     <string name="call_detail">Llamar</string>
-    <string name="contact_detail">Comunicate directamente</string>
-    <string name="website_detail">Visitar el sitio Web</string>
     <string name="btn_opine">Opinar</string>
     <string name="btn_opinions">Ver Opiniones</string>
 

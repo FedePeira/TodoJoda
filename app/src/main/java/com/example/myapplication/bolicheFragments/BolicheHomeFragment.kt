@@ -1,13 +1,13 @@
 package com.example.myapplication.bolicheFragments
 
 import android.os.Bundle
+import android.os.Handler
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
 import android.widget.ImageView
-import androidx.appcompat.widget.AppCompatButton
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.R
@@ -15,7 +15,6 @@ import com.example.myapplication.adapter.BolicheAdapter
 import com.example.myapplication.databaseBoliche.AppDatabase
 import com.example.myapplication.databaseBoliche.BolicheDao
 import com.example.myapplication.models.Boliche
-import com.google.gson.Gson
 import com.jakewharton.threetenabp.AndroidThreeTen
 import org.threeten.bp.LocalTime
 
@@ -49,9 +48,15 @@ class BolicheHomeFragment: Fragment() {
         // RecyclerView Layout
         viewManager = LinearLayoutManager(context)
 
+        // Loading Animation
+        val loadingRecyclerView = v.findViewById<ImageView>(R.id.loadingRecyclerView)
+        val rotateAnimation = AnimationUtils.loadAnimation(context, R.anim.rotate_big_loading)
         val bolichesIds = mutableListOf<Int>()
-
         val boliches = mutableListOf<Boliche>()
+
+        // Show animation
+        loadingRecyclerView.visibility = View.VISIBLE
+        loadingRecyclerView.startAnimation(rotateAnimation)
 
         // Opiniones de Boliches
         val boliche1 = Boliche(
@@ -92,16 +97,21 @@ class BolicheHomeFragment: Fragment() {
         bolichesIds.add(boliche1.id!!)
         bolichesIds.add(boliche2.id!!)
 
-        // Agregamos los boliches hardcodeados a la db
-        // Initialize viewAdapter here with the list of Boliche
-        viewAdapter = BolicheAdapter(bolichesIds)
+        Handler().postDelayed({
+            // Load data here...
+            // Initialize viewAdapter here with the list of Boliche
+            viewAdapter = BolicheAdapter(bolichesIds)
 
-        // Set up RecyclerView
-        recyclerView.apply {
-            setHasFixedSize(true)
-            layoutManager = viewManager
-            adapter = viewAdapter
-        }
+            // Set up RecyclerView
+            recyclerView.apply {
+                setHasFixedSize(true)
+                layoutManager = viewManager
+                adapter = viewAdapter
+            }
+            // Hide
+            loadingRecyclerView.clearAnimation()
+            loadingRecyclerView.visibility = View.GONE
+        }, 2000)
 
         // Insert the boliches into the database
         boliches.forEach { boliche ->
