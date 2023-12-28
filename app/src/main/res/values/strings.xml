@@ -1,0 +1,38 @@
+<resources>
+    <!--  Main Page  -->
+    <string name="logo_title">TodoJoda</string>
+    <string name="main_titleLocation">Localidad</string>
+    <string name="main_location">Mar del Plata</string>
+    <string name="btn_next">Siguiente</string>
+
+    <!--  Register Page  -->
+    <string name="register_title">Registrarse</string>
+    <string name="register_name">Ingrese su nombre</string>
+
+    <!--  Categories Page  -->
+    <string name="sub_title">Elegie lo que Buscas</string>
+    <string name="categories_title">Categorias</string>
+    <string name="amigos">Amigos</string>
+    <string name="previa">Previa</string>
+    <string name="boliche">Boliche</string>
+    <string name="encuentros">Encuentros</string>
+    <string name="restaurante">Restaurantes</string>
+    <string name="playa">Playa</string>
+
+    <!--  Boliche Page  -->
+    <string name="boliche_title">Boliche</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="passline">Passline</string>
+
+    <!--  Boliche Home Page  -->
+    <string name="selection">Seleccion</string>
+    <string name="hello">Hola</string>
+    <string name="user_name">Nombre del Cliente</string>
+
+    <!--  Boliche Detail Page  -->
+    <string name="call_detail">Llamar</string>
+    <string name="btn_opine">Opinar</string>
+    <string name="btn_opinions">Ver Opiniones</string>
+
+
+</resources>

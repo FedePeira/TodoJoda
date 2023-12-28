@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/boliche_navgraph"
+    app:startDestination="@id/bolicheHomeFragment">
+
+    <fragment
+        android:id="@+id/bolicheDetailFragment"
+        android:name="com.example.myapplication.bolicheFragments.BolicheDetailFragment"
+        android:label="fragment_detailboliche"
+        tools:layout="@layout/fragment_detailboliche" >
+        <action
+            android:id="@+id/action_bolicheDetailFragment_to_opineFragment"
+            app:destination="@id/bolicheOpineFragment" />
+        <action
+            android:id="@+id/action_bolicheDetailFragment_to_opinionsFragment"
+            app:destination="@id/bolicheOpinionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bolicheHomeFragment"
+        android:name="com.example.myapplication.bolicheFragments.BolicheHomeFragment"
+        android:label="BolicheHomeFragment" >
+        <action
+            android:id="@+id/action_bolicheHomeFragment_to_bolicheDetailFragment"
+            app:destination="@id/bolicheDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bolicheOpineFragment"
+        android:name="com.example.myapplication.bolicheFragments.BolicheOpineFragment"
+        android:label="BolicheOpineFragment" />
+    <fragment
+        android:id="@+id/bolicheOpinionsFragment"
+        android:name="com.example.myapplication.bolicheFragments.BolicheOpinionsFragment"
+        android:label="BolicheOpinionsFragment" />
+</navigation>
