@@ -51,21 +51,12 @@ class BolicheDetailFragment : Fragment() {
 
         // Loading Animations
         val loadingImages = view.findViewById<ImageView>(R.id.loadingImages)
-        val loadingDescription = view.findViewById<ImageView>(R.id.loadingDescription)
-        val loadingStats = view.findViewById<ImageView>(R.id.loadingStats)
-        val loadingContact = view.findViewById<ImageView>(R.id.loadingContact)
         val rotateAnimationBigLoading = AnimationUtils.loadAnimation(context, R.anim.rotate_big_loading)
-        val rotateAnimationSmallLoading = AnimationUtils.loadAnimation(context, R.anim.rotate_small_loading)
 
         // Show animation
         loadingImages.visibility = View.VISIBLE
         loadingImages.startAnimation(rotateAnimationBigLoading)
-        loadingDescription.visibility = View.VISIBLE
-        loadingDescription.startAnimation(rotateAnimationSmallLoading)
-        loadingStats.visibility = View.VISIBLE
-        loadingStats.startAnimation(rotateAnimationSmallLoading)
-        loadingContact.visibility = View.VISIBLE
-        loadingContact.startAnimation(rotateAnimationSmallLoading)
+
 
         // Obtenemos los elementos del XML
         val viewPagerImage = view.findViewById<ViewPager2>(R.id.viewPager)
@@ -90,73 +81,56 @@ class BolicheDetailFragment : Fragment() {
             loadingImages.visibility = View.GONE
         }, 2000) // 2 seconds delay
 
+        // Insert Title
+        bolicheName.text = boliche.title
+        // Insert Location
+        bolicheLocation.text = boliche.location
 
-        Handler().postDelayed({
-            // Insert Title
-            bolicheName.text = boliche.title
-            // Insert Location
-            bolicheLocation.text = boliche.location
+        // Insert Text Contact
+        contact.text = "Comunicate directamente"
+        // Insert Text Website
+        websiteTextView.text = "Visitar el sitio Web"
 
-            // After data is loaded, hide ProgressBar
-            loadingDescription.clearAnimation()
-            loadingDescription.visibility = View.GONE
-        }, 3000)
+        // Insert WebsiteURL
+        websiteTextView.setOnClickListener {
+            val url = boliche.linkWebsite
+            val intent = Intent(Intent.ACTION_VIEW)
+            intent.data = Uri.parse(url)
+            startActivity(intent)
+        }
 
-        Handler().postDelayed({
-            // Insert Text Contact
-            contact.text = "Comunicate directamente"
-            // Insert Text Website
-            websiteTextView.text = "Visitar el sitio Web"
-
-            // Insert WebsiteURL
-            websiteTextView.setOnClickListener {
-                val url = boliche.linkWebsite
-                val intent = Intent(Intent.ACTION_VIEW)
-                intent.data = Uri.parse(url)
-                startActivity(intent)
+        // Insert List Stats
+        boliche.stats.forEach { stat ->
+            val textView = TextView(context).apply {
+                text = stat
+                layoutParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.WRAP_CONTENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+                )
+                // (Chequear size)
+                textSize = 16f
+                setTextColor(ContextCompat.getColor(context, R.color.text))
+                typeface = ResourcesCompat.getFont(context, R.font.poppins_regular)
             }
+            statsLayout.addView(textView)
+        }
 
-            // After data is loaded, hide ProgressBar
-            loadingContact.clearAnimation()
-            loadingContact.visibility = View.GONE
-        }, 4000)
+        // Insert Status Time
+        val now = LocalTime.now()
+        if (now.isAfter(boliche.timeOpen) && now.isBefore(boliche.timeClose)) {
+            // El boliche está abierto
+            scheduleStatus.text = "Abierto ahora"
+            scheduleStatus.setTextColor(ContextCompat.getColor(context?: return, R.color.correct))
+        } else {
+            // El boliche está cerrado
+            scheduleStatus.text = "Cerrado por ahora"
+            scheduleStatus.setTextColor(ContextCompat.getColor(context?: return, R.color.error))
+        }
 
-        Handler().postDelayed({
-            // Insert List Stats
-            boliche.stats.forEach { stat ->
-                val textView = TextView(context).apply {
-                    text = stat
-                    layoutParams = LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.WRAP_CONTENT,
-                        LinearLayout.LayoutParams.WRAP_CONTENT
-                    )
-                    // (Chequear size)
-                    textSize = 16f
-                    setTextColor(ContextCompat.getColor(context, R.color.text))
-                    typeface = ResourcesCompat.getFont(context, R.font.poppins_regular)
-                }
-                statsLayout.addView(textView)
-            }
+        // Insert Text Time
+        schedule.text = "De " + boliche.timeOpen + " a " + boliche.timeClose
 
-            // Insert Status Time
-            val now = LocalTime.now()
-            if (now.isAfter(boliche.timeOpen) && now.isBefore(boliche.timeClose)) {
-                // El boliche está abierto
-                scheduleStatus.text = "Abierto ahora"
-                scheduleStatus.setTextColor(ContextCompat.getColor(context?: return@postDelayed, R.color.correct))
-            } else {
-                // El boliche está cerrado
-                scheduleStatus.text = "Cerrado por ahora"
-                scheduleStatus.setTextColor(ContextCompat.getColor(context?: return@postDelayed, R.color.error))
-            }
 
-            // Insert Text Time
-            schedule.text = "De " + boliche.timeOpen + " a " + boliche.timeClose
-
-            // Hide
-            loadingStats.clearAnimation()
-            loadingStats.visibility = View.GONE
-        }, 5000)
 
         // SetListener OpineButton(BolicheOpineFragment)
         opineButton.setOnClickListener {
