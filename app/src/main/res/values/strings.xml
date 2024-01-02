@@ -34,5 +34,30 @@
     <string name="btn_opine">Opinar</string>
     <string name="btn_opinions">Ver Opiniones</string>
 
+    <!--  Boliche Opinions Page  -->
+    <string name="opinions">Opiniones</string>
+    <string name="excelente">Excelente</string>
+    <string name="muy_bueno">Muy Bueno</string>
+
+    <!--  App Bar Main Page  -->
+    <string name="typeSelected">Boliche</string>
+
+    <!--  Item Boliche Page  -->
+    <string name="titleBoliche">Titulo</string>
+    <string name="descriptionBoliche">Descripcion</string>
+    <string name="ratingBoliche">Rating Count</string>
+    <string name="promedio">Promedio</string>
+    <string name="mala">Mala</string>
+    <string name="horrible">Horrible</string>
+
+    <!--  Item Opinion Page  -->
+    <string name="nameUserOpinion">Nombre</string>
+    <string name="titleOpinion">Titulo de la Opinion</string>
+    <string name="descriptionOpinion">Descripcion de la Opinion</string>
+
+    <!--  Boliche Opinion Page  -->
+    <string name="ratingCountBoliche">4.5</string>
+    <string name="cantOpinionsBoliche">123 opiniones</string>
+    <string name="cantTypeBoliche">0</string>
 
 </resources>

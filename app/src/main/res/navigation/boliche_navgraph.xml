@@ -24,6 +24,9 @@
         <action
             android:id="@+id/action_bolicheHomeFragment_to_bolicheDetailFragment"
             app:destination="@id/bolicheDetailFragment" />
+        <action
+            android:id="@+id/action_bolicheHomeFragment_to_categoriesFragment"
+            app:destination="@id/categoriesFragment" />
     </fragment>
     <fragment
         android:id="@+id/bolicheOpineFragment"

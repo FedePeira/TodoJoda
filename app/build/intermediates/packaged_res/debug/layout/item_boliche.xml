@@ -51,18 +51,20 @@
                     android:numStars="5"
                     android:rating="5"
                     android:stepSize="1"
-                    android:progressTint="#099D2A" />
+                    android:progressTint="@color/correct" />
 
                 <TextView
                     android:id="@+id/ratingCount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="3"
+                    android:text="RatingCount"
+                    android:textColor="@color/correct"
+                    android:fontFamily="@font/poppins_regular"
                     android:layout_marginStart="10dp"/>
 
                 <ImageView
-                    android:id="@+id/nextIcon"
+                    android:id="@+id/openDetail"
                     android:layout_width="14dp"
                     android:layout_height="14dp"
                     android:layout_gravity="end"

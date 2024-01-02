@@ -1,6 +1,7 @@
 package com.example.myapplication.databaseBoliche
 
 import androidx.room.TypeConverter
+import com.example.myapplication.models.Opinion
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import org.threeten.bp.LocalTime
@@ -27,4 +28,19 @@ class Converters {
     fun fromTimeToString(time: LocalTime): String {
         return time.toString()
     }
+
+    @TypeConverter
+    fun fromOpinionList(list: List<Opinion>): String {
+        val gson = Gson()
+        val type = object : TypeToken<List<Opinion>>() {}.type
+        return gson.toJson(list, type)
+    }
+
+    @TypeConverter
+    fun toOpinionList(data: String): List<Opinion> {
+        val gson = Gson()
+        val type = object : TypeToken<List<Opinion>>() {}.type
+        return gson.fromJson(data, type)
+    }
+
 }

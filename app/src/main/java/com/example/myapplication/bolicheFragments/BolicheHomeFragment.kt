@@ -15,9 +15,11 @@ import com.example.myapplication.adapter.BolicheAdapter
 import com.example.myapplication.databaseBoliche.AppDatabase
 import com.example.myapplication.databaseBoliche.BolicheDao
 import com.example.myapplication.models.Boliche
+import com.example.myapplication.models.Opinion
 import com.jakewharton.threetenabp.AndroidThreeTen
 import org.threeten.bp.LocalTime
 
+@Suppress("DEPRECATION")
 class BolicheHomeFragment: Fragment() {
 
     private lateinit var recyclerView: RecyclerView
@@ -83,13 +85,43 @@ class BolicheHomeFragment: Fragment() {
             linkWebsite = "www.bolicheB.com"
         )
 
+        val opinion1 = Opinion(
+            person = "Javier",
+            rating = 4,
+            title = "Muy Bueno el Boliche",
+            description = "Increible lugar, con gente muy amable, la musica muy buena con un ambiente muy bien diseñado"
+        )
+
+        val opinion3 = Opinion(
+            person = "Roberto",
+            rating = 4,
+            title = "Muy Bueno el Boliche",
+            description = "Increible lugar, con gente muy amable, la musica muy buena con un ambiente muy bien diseñado"
+        )
+
+        val opinion4 = Opinion(
+            person = "Alejandro",
+            rating = 4,
+            title = "Muy Bueno el Boliche",
+            description = "Increible lugar, con gente muy amable, la musica muy buena con un ambiente muy bien diseñado"
+        )
+
+        val opinion2 = Opinion(
+            person = "Roberto",
+            rating = 2,
+            title = "Muy Malo el Boliche",
+            description = "Malo el lugar, con gente poco amable, la musica  buena con un ambiente mal diseñado"
+        )
+
         // Agregar datos a las listas
         boliche1.stats.add("Estadística 1")
-        boliche1.opinions.add("Opinión 1")
+        boliche1.opinions.add(opinion1)
+        boliche1.opinions.add(opinion3)
+        boliche1.opinions.add(opinion4)
         boliche1.images.add("samsara_image")
 
         boliche2.stats.add("Estadística 2")
-        boliche2.opinions.add("Opinión 2")
+        boliche2.opinions.add(opinion2)
         boliche2.images.add("samsara_image")
 
         boliches.add(boliche1)
@@ -117,7 +149,6 @@ class BolicheHomeFragment: Fragment() {
         boliches.forEach { boliche ->
             bolicheDao.insertBoliche(boliche)
         }
-
         return v
     }
 

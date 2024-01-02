@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.myapplication.app-mergeDebugResources-45:/values-iw/values-iw.xml",
+            "outputFile": "com.example.myapplication.app-mergeDebugResources-54:/values-iw/values-iw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\fedep\\.gradle\\caches\\transforms-3\\c9037ae97dbfa741c58fe1acfff5ef01\\transformed\\navigation-ui-2.7.5\\res\\values-iw\\values-iw.xml",

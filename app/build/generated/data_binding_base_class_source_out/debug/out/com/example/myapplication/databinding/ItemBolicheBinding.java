@@ -31,7 +31,7 @@ public final class ItemBolicheBinding implements ViewBinding {
   public final TextView itemTitle;
 
   @NonNull
-  public final ImageView nextIcon;
+  public final ImageView openDetail;
 
   @NonNull
   public final RatingBar ratingBar;
@@ -41,13 +41,13 @@ public final class ItemBolicheBinding implements ViewBinding {
 
   private ItemBolicheBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout itemBoliche, @NonNull TextView itemDescription,
-      @NonNull TextView itemTitle, @NonNull ImageView nextIcon, @NonNull RatingBar ratingBar,
+      @NonNull TextView itemTitle, @NonNull ImageView openDetail, @NonNull RatingBar ratingBar,
       @NonNull TextView ratingCount) {
     this.rootView = rootView;
     this.itemBoliche = itemBoliche;
     this.itemDescription = itemDescription;
     this.itemTitle = itemTitle;
-    this.nextIcon = nextIcon;
+    this.openDetail = openDetail;
     this.ratingBar = ratingBar;
     this.ratingCount = ratingCount;
   }
@@ -93,9 +93,9 @@ public final class ItemBolicheBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.nextIcon;
-      ImageView nextIcon = ViewBindings.findChildViewById(rootView, id);
-      if (nextIcon == null) {
+      id = R.id.openDetail;
+      ImageView openDetail = ViewBindings.findChildViewById(rootView, id);
+      if (openDetail == null) {
         break missingId;
       }
 
@@ -112,7 +112,7 @@ public final class ItemBolicheBinding implements ViewBinding {
       }
 
       return new ItemBolicheBinding((ConstraintLayout) rootView, itemBoliche, itemDescription,
-          itemTitle, nextIcon, ratingBar, ratingCount);
+          itemTitle, openDetail, ratingBar, ratingCount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
