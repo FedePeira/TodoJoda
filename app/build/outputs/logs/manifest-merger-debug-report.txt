@@ -14,9 +14,12 @@ MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.5] C:\Users\fedep\.
 MERGED from [androidx.navigation:navigation-ui-ktx:2.7.5] C:\Users\fedep\.gradle\caches\transforms-3\fdab75c62812f017626cf55b035c104a\transformed\navigation-ui-ktx-2.7.5\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-ui:2.7.5] C:\Users\fedep\.gradle\caches\transforms-3\c9037ae97dbfa741c58fe1acfff5ef01\transformed\navigation-ui-2.7.5\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\fedep\.gradle\caches\transforms-3\d4a9d4d51986566abbf1bae770293492\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-paging:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\955760187ab75c70e1297323ae60e602\transformed\room-paging-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\736d7be04db80e228562254f77f1b2fe\transformed\room-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fedep\.gradle\caches\transforms-3\c655b657a436a6a46fbb1cb64826e67f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\fedep\.gradle\caches\transforms-3\49c03bf408508f59be94a64da7ed5761\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\fedep\.gradle\caches\transforms-3\30687c6bac80310a4f44019ee1b44b9d\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fedep\.gradle\caches\transforms-3\60080ef60fa2e694dbaca8fe3d94c1cc\transformed\glide-4.12.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fedep\.gradle\caches\transforms-3\e46ffce52f2363995cd01ba7de2d99bf\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\fedep\.gradle\caches\transforms-3\89aff87708d6dba99ce2d193a1698713\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\fedep\.gradle\caches\transforms-3\ddb94ec067c75210ab9cf21a4a3a6e1f\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
@@ -51,8 +54,16 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\fedep\.gradl
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\fedep\.gradle\caches\transforms-3\51713b1adb4f20e1390d6ed97e48d540\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\fedep\.gradle\caches\transforms-3\9d5da0ba3c45dfc9cd950fdaae170ff8\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.1] C:\Users\fedep\.gradle\caches\transforms-3\11ca1421bf931f67c50ecf9158201db0\transformed\threetenabp-1.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-rxjava2:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\97a13ba3e2f0bb00998c007e2bd90a69\transformed\room-rxjava2-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-rxjava3:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\a2fed6bc96cfc0be721b6dec9682d1a2\transformed\room-rxjava3-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-guava:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\8863e176f70ebe5c1b7fc31f997b8dd9\transformed\room-guava-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\3f50f8699a0e04078f45726e4f71d7f8\transformed\room-runtime-2.4.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fedep\.gradle\caches\transforms-3\1880f33935b4bfe9e7d8b30b26e865f2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fedep\.gradle\caches\transforms-3\550ed8d72aff9286145fa078e21f7617\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\fedep\.gradle\caches\transforms-3\d66820e19cef82d7342e2f5373b6cf9b\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\fedep\.gradle\caches\transforms-3\e3c8b8b6824f667a6a95f8956db56e3c\transformed\sqlite-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fedep\.gradle\caches\transforms-3\a9130140549a674def987eb2812fc792\transformed\gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\fedep\.gradle\caches\transforms-3\62d849e2761a0f63750f5fd2171965f6\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fedep\.gradle\caches\transforms-3\8d6385f2ef5cde6f8055c1f29af50e66\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fedep\.gradle\caches\transforms-3\ba685c113129519f68ae739be395af1d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\fedep\.gradle\caches\transforms-3\94a95414dd8b33f8d59cfc1e10c73a2c\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
@@ -80,6 +91,8 @@ MERGED from [com.google.android.material:material:1.10.0] C:\Users\fedep\.gradle
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\fedep\.gradle\caches\transforms-3\d4a9d4d51986566abbf1bae770293492\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fedep\.gradle\caches\transforms-3\c655b657a436a6a46fbb1cb64826e67f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fedep\.gradle\caches\transforms-3\c655b657a436a6a46fbb1cb64826e67f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fedep\.gradle\caches\transforms-3\60080ef60fa2e694dbaca8fe3d94c1cc\transformed\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fedep\.gradle\caches\transforms-3\60080ef60fa2e694dbaca8fe3d94c1cc\transformed\glide-4.12.0\AndroidManifest.xml:10:5-20
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fedep\.gradle\caches\transforms-3\6096b0dda8c9bbd015638fb763d6f43a\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\fedep\.gradle\caches\transforms-3\6096b0dda8c9bbd015638fb763d6f43a\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\fedep\.gradle\caches\transforms-3\5688efdd8ec02800854824c6e673943c\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
@@ -90,6 +103,10 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\fedep\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\fedep\.gradle\caches\transforms-3\12b759a496e202c30bcb9c00b1f575f2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.1] C:\Users\fedep\.gradle\caches\transforms-3\11ca1421bf931f67c50ecf9158201db0\transformed\threetenabp-1.3.1\AndroidManifest.xml:7:5-20
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.1] C:\Users\fedep\.gradle\caches\transforms-3\11ca1421bf931f67c50ecf9158201db0\transformed\threetenabp-1.3.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.room:room-runtime:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\3f50f8699a0e04078f45726e4f71d7f8\transformed\room-runtime-2.4.0\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\3f50f8699a0e04078f45726e4f71d7f8\transformed\room-runtime-2.4.0\AndroidManifest.xml:24:5-29:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fedep\.gradle\caches\transforms-3\a9130140549a674def987eb2812fc792\transformed\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fedep\.gradle\caches\transforms-3\a9130140549a674def987eb2812fc792\transformed\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fedep\.gradle\caches\transforms-3\8d6385f2ef5cde6f8055c1f29af50e66\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fedep\.gradle\caches\transforms-3\8d6385f2ef5cde6f8055c1f29af50e66\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fedep\.gradle\caches\transforms-3\ba685c113129519f68ae739be395af1d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
@@ -164,12 +181,18 @@ MERGED from [androidx.navigation:navigation-ui:2.7.5] C:\Users\fedep\.gradle\cac
 MERGED from [androidx.navigation:navigation-ui:2.7.5] C:\Users\fedep\.gradle\caches\transforms-3\c9037ae97dbfa741c58fe1acfff5ef01\transformed\navigation-ui-2.7.5\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\fedep\.gradle\caches\transforms-3\d4a9d4d51986566abbf1bae770293492\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\fedep\.gradle\caches\transforms-3\d4a9d4d51986566abbf1bae770293492\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-paging:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\955760187ab75c70e1297323ae60e602\transformed\room-paging-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-paging:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\955760187ab75c70e1297323ae60e602\transformed\room-paging-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\736d7be04db80e228562254f77f1b2fe\transformed\room-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\736d7be04db80e228562254f77f1b2fe\transformed\room-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fedep\.gradle\caches\transforms-3\c655b657a436a6a46fbb1cb64826e67f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fedep\.gradle\caches\transforms-3\c655b657a436a6a46fbb1cb64826e67f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\fedep\.gradle\caches\transforms-3\49c03bf408508f59be94a64da7ed5761\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\fedep\.gradle\caches\transforms-3\49c03bf408508f59be94a64da7ed5761\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\fedep\.gradle\caches\transforms-3\30687c6bac80310a4f44019ee1b44b9d\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\fedep\.gradle\caches\transforms-3\30687c6bac80310a4f44019ee1b44b9d\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fedep\.gradle\caches\transforms-3\60080ef60fa2e694dbaca8fe3d94c1cc\transformed\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\fedep\.gradle\caches\transforms-3\60080ef60fa2e694dbaca8fe3d94c1cc\transformed\glide-4.12.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fedep\.gradle\caches\transforms-3\e46ffce52f2363995cd01ba7de2d99bf\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fedep\.gradle\caches\transforms-3\e46ffce52f2363995cd01ba7de2d99bf\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\fedep\.gradle\caches\transforms-3\89aff87708d6dba99ce2d193a1698713\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
@@ -238,10 +261,26 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\fedep\.g
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\fedep\.gradle\caches\transforms-3\9d5da0ba3c45dfc9cd950fdaae170ff8\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.1] C:\Users\fedep\.gradle\caches\transforms-3\11ca1421bf931f67c50ecf9158201db0\transformed\threetenabp-1.3.1\AndroidManifest.xml:5:5-44
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.3.1] C:\Users\fedep\.gradle\caches\transforms-3\11ca1421bf931f67c50ecf9158201db0\transformed\threetenabp-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-rxjava2:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\97a13ba3e2f0bb00998c007e2bd90a69\transformed\room-rxjava2-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\97a13ba3e2f0bb00998c007e2bd90a69\transformed\room-rxjava2-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava3:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\a2fed6bc96cfc0be721b6dec9682d1a2\transformed\room-rxjava3-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava3:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\a2fed6bc96cfc0be721b6dec9682d1a2\transformed\room-rxjava3-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-guava:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\8863e176f70ebe5c1b7fc31f997b8dd9\transformed\room-guava-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-guava:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\8863e176f70ebe5c1b7fc31f997b8dd9\transformed\room-guava-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\3f50f8699a0e04078f45726e4f71d7f8\transformed\room-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\3f50f8699a0e04078f45726e4f71d7f8\transformed\room-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fedep\.gradle\caches\transforms-3\1880f33935b4bfe9e7d8b30b26e865f2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fedep\.gradle\caches\transforms-3\1880f33935b4bfe9e7d8b30b26e865f2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fedep\.gradle\caches\transforms-3\550ed8d72aff9286145fa078e21f7617\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fedep\.gradle\caches\transforms-3\550ed8d72aff9286145fa078e21f7617\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\fedep\.gradle\caches\transforms-3\d66820e19cef82d7342e2f5373b6cf9b\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\fedep\.gradle\caches\transforms-3\d66820e19cef82d7342e2f5373b6cf9b\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\fedep\.gradle\caches\transforms-3\e3c8b8b6824f667a6a95f8956db56e3c\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\fedep\.gradle\caches\transforms-3\e3c8b8b6824f667a6a95f8956db56e3c\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fedep\.gradle\caches\transforms-3\a9130140549a674def987eb2812fc792\transformed\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\fedep\.gradle\caches\transforms-3\a9130140549a674def987eb2812fc792\transformed\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\fedep\.gradle\caches\transforms-3\62d849e2761a0f63750f5fd2171965f6\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\fedep\.gradle\caches\transforms-3\62d849e2761a0f63750f5fd2171965f6\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fedep\.gradle\caches\transforms-3\8d6385f2ef5cde6f8055c1f29af50e66\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fedep\.gradle\caches\transforms-3\8d6385f2ef5cde6f8055c1f29af50e66\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fedep\.gradle\caches\transforms-3\ba685c113129519f68ae739be395af1d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
@@ -326,6 +365,14 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\fedep\.gradle\c
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\fedep\.gradle\caches\transforms-3\12b759a496e202c30bcb9c00b1f575f2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\fedep\.gradle\caches\transforms-3\12b759a496e202c30bcb9c00b1f575f2\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\3f50f8699a0e04078f45726e4f71d7f8\transformed\room-runtime-2.4.0\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\3f50f8699a0e04078f45726e4f71d7f8\transformed\room-runtime-2.4.0\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\3f50f8699a0e04078f45726e4f71d7f8\transformed\room-runtime-2.4.0\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.0] C:\Users\fedep\.gradle\caches\transforms-3\3f50f8699a0e04078f45726e4f71d7f8\transformed\room-runtime-2.4.0\AndroidManifest.xml:26:13-74
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\fedep\.gradle\caches\transforms-3\ba685c113129519f68ae739be395af1d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
 	android:value

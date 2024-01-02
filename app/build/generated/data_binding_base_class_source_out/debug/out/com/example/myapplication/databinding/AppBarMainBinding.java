@@ -4,6 +4,7 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,14 +22,18 @@ public final class AppBarMainBinding implements ViewBinding {
   private final CoordinatorLayout rootView;
 
   @NonNull
+  public final ImageView changeSelection;
+
+  @NonNull
   public final Toolbar toolbarMain;
 
   @NonNull
   public final TextView userName;
 
-  private AppBarMainBinding(@NonNull CoordinatorLayout rootView, @NonNull Toolbar toolbarMain,
-      @NonNull TextView userName) {
+  private AppBarMainBinding(@NonNull CoordinatorLayout rootView, @NonNull ImageView changeSelection,
+      @NonNull Toolbar toolbarMain, @NonNull TextView userName) {
     this.rootView = rootView;
+    this.changeSelection = changeSelection;
     this.toolbarMain = toolbarMain;
     this.userName = userName;
   }
@@ -60,6 +65,12 @@ public final class AppBarMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.changeSelection;
+      ImageView changeSelection = ViewBindings.findChildViewById(rootView, id);
+      if (changeSelection == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar_main;
       Toolbar toolbarMain = ViewBindings.findChildViewById(rootView, id);
       if (toolbarMain == null) {
@@ -72,7 +83,8 @@ public final class AppBarMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new AppBarMainBinding((CoordinatorLayout) rootView, toolbarMain, userName);
+      return new AppBarMainBinding((CoordinatorLayout) rootView, changeSelection, toolbarMain,
+          userName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

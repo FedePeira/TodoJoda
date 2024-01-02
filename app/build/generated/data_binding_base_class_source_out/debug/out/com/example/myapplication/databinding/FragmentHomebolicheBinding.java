@@ -4,7 +4,8 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ScrollView;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
@@ -17,20 +18,24 @@ import java.lang.String;
 
 public final class FragmentHomebolicheBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final FrameLayout rootView;
 
   @NonNull
   public final RecyclerView bolichesListRecycler;
 
-  private FragmentHomebolicheBinding(@NonNull ScrollView rootView,
-      @NonNull RecyclerView bolichesListRecycler) {
+  @NonNull
+  public final ImageView loadingRecyclerView;
+
+  private FragmentHomebolicheBinding(@NonNull FrameLayout rootView,
+      @NonNull RecyclerView bolichesListRecycler, @NonNull ImageView loadingRecyclerView) {
     this.rootView = rootView;
     this.bolichesListRecycler = bolichesListRecycler;
+    this.loadingRecyclerView = loadingRecyclerView;
   }
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public FrameLayout getRoot() {
     return rootView;
   }
 
@@ -61,7 +66,14 @@ public final class FragmentHomebolicheBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomebolicheBinding((ScrollView) rootView, bolichesListRecycler);
+      id = R.id.loadingRecyclerView;
+      ImageView loadingRecyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (loadingRecyclerView == null) {
+        break missingId;
+      }
+
+      return new FragmentHomebolicheBinding((FrameLayout) rootView, bolichesListRecycler,
+          loadingRecyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

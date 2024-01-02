@@ -31,7 +31,7 @@ class BolicheActivity: AppCompatActivity() {
         navHostFragment.navController.setGraph(R.navigation.boliche_navgraph, bundle)
 
         navHostFragment.navController.addOnDestinationChangedListener { _, destination, _ ->
-            if (destination.id == R.id.bolicheDetailFragment) {
+            if (destination.id == R.id.bolicheDetailFragment || destination.id == R.id.bolicheOpinionsFragment) {
                 appBarLayout.visibility = View.GONE
             } else {
                 appBarLayout.visibility = View.VISIBLE
@@ -43,7 +43,7 @@ class BolicheActivity: AppCompatActivity() {
         bottomNavView.setOnItemSelectedListener  { item ->
             when (item.itemId) {
                 R.id.mainFragment -> {
-                    val bundle = bundleOf("name" to name!!)
+                    val bundle = bundleOf("name" to name)
                     navHostFragment.navController.navigate(R.id.bolicheHomeFragment, bundle)
                     true
                 }

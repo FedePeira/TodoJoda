@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/opinion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/userNameOpinion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:textSize="24sp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/nameUserOpinion" />
+
+            <RatingBar
+                android:id="@+id/ratingBarOpinion"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="5"
+                android:stepSize="1"
+                android:progressTint="@color/correct" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/userImageOpinion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_icon_logo" />
+    </LinearLayout>
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/titleOpinion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textSize="14sp"
+        android:text="@string/titleOpinion"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/text"
+        android:layout_below="@id/opinion"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Description TextView -->
+    <TextView
+        android:id="@+id/descriptionOpinion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textSize="12sp"
+        android:text="@string/descriptionOpinion"
+        android:textColor="@color/text_light"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_below="@id/titleOpinion"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>

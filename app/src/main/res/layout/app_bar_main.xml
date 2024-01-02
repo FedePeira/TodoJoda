@@ -46,6 +46,7 @@
                     </TextView>
 
                     <ImageView
+                        android:id="@+id/changeSelection"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
@@ -59,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
                     android:textColor="@color/text_light"
-                    android:text="Boliche"
+                    android:text="@string/typeSelected"
                     android:textSize="18sp" />
 
                 <LinearLayout

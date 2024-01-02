@@ -26,6 +26,7 @@ import org.threeten.bp.LocalTime
 
 private const val ARG_BOLICHE = "boliche"
 
+@Suppress("DEPRECATION")
 class BolicheDetailFragment : Fragment() {
     private lateinit var boliche: Boliche
     private var id: Int? = null
@@ -87,9 +88,9 @@ class BolicheDetailFragment : Fragment() {
         bolicheLocation.text = boliche.location
 
         // Insert Text Contact
-        contact.text = "Comunicate directamente"
+        contact.setText("Comunicate directamente")
         // Insert Text Website
-        websiteTextView.text = "Visitar el sitio Web"
+        websiteTextView.setText("Visitar el sitio Web")
 
         // Insert WebsiteURL
         websiteTextView.setOnClickListener {
@@ -119,16 +120,16 @@ class BolicheDetailFragment : Fragment() {
         val now = LocalTime.now()
         if (now.isAfter(boliche.timeOpen) && now.isBefore(boliche.timeClose)) {
             // El boliche está abierto
-            scheduleStatus.text = "Abierto ahora"
+            scheduleStatus.setText("Abierto ahora")
             scheduleStatus.setTextColor(ContextCompat.getColor(context?: return, R.color.correct))
         } else {
             // El boliche está cerrado
-            scheduleStatus.text = "Cerrado por ahora"
+            scheduleStatus.setText( "Cerrado por ahora")
             scheduleStatus.setTextColor(ContextCompat.getColor(context?: return, R.color.error))
         }
 
         // Insert Text Time
-        schedule.text = "De " + boliche.timeOpen + " a " + boliche.timeClose
+        schedule.setText("De " + boliche.timeOpen + " a " + boliche.timeClose)
 
 
 
@@ -139,7 +140,11 @@ class BolicheDetailFragment : Fragment() {
 
         // SetListener OpineButton(BolicheOpinionsFragment)
         opinionsButton.setOnClickListener {
-            findNavController().navigate(R.id.action_bolicheDetailFragment_to_opinionsFragment)
+            val bundle = Bundle()
+            bundle.putSerializable("bolicheId", id)
+            val fragment = BolicheOpinionsFragment()
+            fragment.arguments = bundle
+            findNavController().navigate(R.id.action_bolicheDetailFragment_to_opinionsFragment, bundle)
         }
 
         // Images Arrows

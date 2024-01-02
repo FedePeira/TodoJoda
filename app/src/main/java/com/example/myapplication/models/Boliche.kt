@@ -1,6 +1,5 @@
 package com.example.myapplication.models
 
-import android.widget.ImageView
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -53,7 +52,7 @@ class Boliche(
     var linkWebsite: String
 
     @ColumnInfo(name = "opinions")
-    var opinions: MutableList<String>
+    var opinions: MutableList<Opinion>
 
     @ColumnInfo(name = "images")
     var images: MutableList<String>
@@ -70,7 +69,7 @@ class Boliche(
         this.timeClose = timeClose
         this.celNumber = celNumber
         this.linkWebsite = linkWebsite
-        this.opinions = mutableListOf<String>()
+        this.opinions = mutableListOf<Opinion>()
         this.images = mutableListOf<String>()
     }
 }

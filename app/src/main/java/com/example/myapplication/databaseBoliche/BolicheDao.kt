@@ -1,6 +1,5 @@
 package com.example.myapplication.databaseBoliche
 
-import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
@@ -27,6 +26,6 @@ interface BolicheDao {
     fun getBoliche(id: Int): List<Boliche>
 
     @Query("SELECT * FROM boliches WHERE id = :id LIMIT 1")
-    fun getBolicheById(id: Int): Boliche
+    fun getBolicheById(id: Int?): Boliche
 
 }
