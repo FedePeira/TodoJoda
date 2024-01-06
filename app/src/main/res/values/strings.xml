@@ -19,6 +19,10 @@
     <string name="restaurante">Restaurantes</string>
     <string name="playa">Playa</string>
 
+    <!--  Bottom Bar  -->
+    <string name="inicio">Inicio</string>
+    <string name="perfil">Perfil</string>
+
     <!--  Boliche Page  -->
     <string name="boliche_title">Boliche</string>
     <string name="whatsapp">Whatsapp</string>
@@ -59,5 +63,18 @@
     <string name="ratingCountBoliche">4.5</string>
     <string name="cantOpinionsBoliche">123 opiniones</string>
     <string name="cantTypeBoliche">0</string>
+
+    <!--  Profile Page  -->
+    <string name="actividad">Actividad</string>
+    <string name="datosPersonales">Datos Personales</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="gmail">Gmail</string>
+
+    <!--  Datos Personales Profile Page  -->
+    <string name="dni">Dni</string>
+    <string name="phone">Telefono</string>
+    <string name="btn_modified">Dni</string>
+    <string name="btn_back">Telefono</string>
 
 </resources>

@@ -8,5 +8,10 @@
     "name": "login_navgraph",
     "navigationXmlIds": [],
     "deepLinks": []
+  },
+  {
+    "name": "profile_navgraph",
+    "navigationXmlIds": [],
+    "deepLinks": []
   }
 ]

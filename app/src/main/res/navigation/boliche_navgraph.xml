@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/boliche_navgraph"
-    app:startDestination="@id/bolicheHomeFragment">
+    app:startDestination="@id/homeFragment">
 
     <fragment
         android:id="@+id/bolicheDetailFragment"
@@ -18,7 +18,7 @@
             app:destination="@id/bolicheOpinionsFragment" />
     </fragment>
     <fragment
-        android:id="@+id/bolicheHomeFragment"
+        android:id="@+id/homeFragment"
         android:name="com.example.myapplication.bolicheFragments.BolicheHomeFragment"
         android:label="BolicheHomeFragment" >
         <action

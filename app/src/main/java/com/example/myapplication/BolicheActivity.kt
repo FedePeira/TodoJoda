@@ -1,12 +1,12 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.bundleOf
 import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.NavigationUI
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
@@ -15,12 +15,11 @@ class BolicheActivity: AppCompatActivity() {
     private lateinit var navHostFragment: NavHostFragment
     private lateinit var bottomNavView: BottomNavigationView
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_boliche)
 
-        val appBarLayout = findViewById<View>(R.id.appBarMain)
+        val appBarLayout: View = findViewById(R.id.appBarMain)
         val userNameTextView = appBarLayout.findViewById<TextView>(R.id.userName)
 
         val name = intent.getStringExtra("name")
@@ -39,21 +38,20 @@ class BolicheActivity: AppCompatActivity() {
         }
 
         bottomNavView = findViewById(R.id.bottomBar)
-        NavigationUI.setupWithNavController(bottomNavView, navHostFragment.navController)
-        bottomNavView.setOnItemSelectedListener  { item ->
+        bottomNavView.setOnNavigationItemSelectedListener   { item ->
             when (item.itemId) {
-                R.id.mainFragment -> {
+                R.id.homeFragment -> {
                     val bundle = bundleOf("name" to name)
-                    navHostFragment.navController.navigate(R.id.bolicheHomeFragment, bundle)
+                    navHostFragment.navController.navigate(R.id.homeFragment, bundle)
                     true
                 }
-                /*
-                R.id.profileFragment -> {
-                    val bundle = bundleOf("name" to userName!!)
-                    navHostFragment.navController.navigate(R.id.favorite, bundle)
+                R.id.profileActivity -> {
+                    val intent = Intent(this, ProfileActivity::class.java)
+                    intent.putExtra("name", name)
+                    intent.putExtra("profileActivity", R.id.profileActivity)
+                    startActivity(intent)
                     true
                 }
-                */
                 else -> false
             }
         }

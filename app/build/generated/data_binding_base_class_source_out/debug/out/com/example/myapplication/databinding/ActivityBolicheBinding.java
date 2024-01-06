@@ -4,6 +4,7 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -21,6 +22,9 @@ public final class ActivityBolicheBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final FrameLayout appBarContainer;
+
+  @NonNull
   public final AppBarMainBinding appBarMain;
 
   @NonNull
@@ -33,9 +37,11 @@ public final class ActivityBolicheBinding implements ViewBinding {
   public final FragmentContainerView navHost;
 
   private ActivityBolicheBinding(@NonNull ConstraintLayout rootView,
-      @NonNull AppBarMainBinding appBarMain, @NonNull BottomNavigationView bottomBar,
-      @NonNull ConstraintLayout drawerLayout, @NonNull FragmentContainerView navHost) {
+      @NonNull FrameLayout appBarContainer, @NonNull AppBarMainBinding appBarMain,
+      @NonNull BottomNavigationView bottomBar, @NonNull ConstraintLayout drawerLayout,
+      @NonNull FragmentContainerView navHost) {
     this.rootView = rootView;
+    this.appBarContainer = appBarContainer;
     this.appBarMain = appBarMain;
     this.bottomBar = bottomBar;
     this.drawerLayout = drawerLayout;
@@ -69,6 +75,12 @@ public final class ActivityBolicheBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.appBarContainer;
+      FrameLayout appBarContainer = ViewBindings.findChildViewById(rootView, id);
+      if (appBarContainer == null) {
+        break missingId;
+      }
+
       id = R.id.appBarMain;
       View appBarMain = ViewBindings.findChildViewById(rootView, id);
       if (appBarMain == null) {
@@ -90,8 +102,8 @@ public final class ActivityBolicheBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityBolicheBinding((ConstraintLayout) rootView, binding_appBarMain, bottomBar,
-          drawerLayout, navHost);
+      return new ActivityBolicheBinding((ConstraintLayout) rootView, appBarContainer,
+          binding_appBarMain, bottomBar, drawerLayout, navHost);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

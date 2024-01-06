@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/itemBoliche"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -25,7 +24,7 @@
                 android:id="@+id/itemTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Titulo"
+                android:text="@string/titleBoliche"
                 android:textColor="@color/white"
                 android:fontFamily="@font/poppins_bold"
                 android:textAppearance="?attr/textAppearanceHeadline6" />
@@ -34,7 +33,7 @@
                 android:id="@+id/itemDescription"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Descripcion"
+                android:text="@string/descriptionBoliche"
                 android:textColor="@color/white"
                 android:fontFamily="@font/poppins_regular" />
 
@@ -55,10 +54,10 @@
 
                 <TextView
                     android:id="@+id/ratingCount"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="RatingCount"
+                    android:text="@string/ratingBoliche"
                     android:textColor="@color/correct"
                     android:fontFamily="@font/poppins_regular"
                     android:layout_marginStart="10dp"/>

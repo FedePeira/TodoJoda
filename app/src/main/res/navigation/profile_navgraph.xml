@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile_navgraph"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.myapplication.profileFragments.ProfileFragment"
+        android:label="ProfileFragment" >
+        <action
+            android:id="@+id/action_profileFragment_to_profileDatosPersonalesFragment"
+            app:destination="@id/profileDatosPersonalesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileDatosPersonalesFragment"
+        android:name="com.example.myapplication.profileFragments.ProfileDatosPersonalesFragment"
+        android:label="ProfileDatosPersonalesFragment" />
+</navigation>

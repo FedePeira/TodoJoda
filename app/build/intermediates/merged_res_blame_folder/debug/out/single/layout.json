@@ -1,15 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\app_bar_main.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\app_bar_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\fragment_register.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\fragment_register.xml"
-    },
-    {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\activity_boliche.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\activity_boliche.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/activity_login.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/activity_login.xml"
     },
     {
         "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/fragment_opinionsboliche.xml",
@@ -20,55 +12,71 @@
         "source": "com.example.myapplication.app-main-58:/layout/item_opinionboliche.xml"
     },
     {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\fragment_categories.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\fragment_categories.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/activity_profile.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\activity_login.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/fragment_homeboliche.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/fragment_homeboliche.xml"
     },
     {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\fragment_opineboliche.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\fragment_opineboliche.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/activity_boliche.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/activity_boliche.xml"
     },
     {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\activity_main.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/app_bar_main.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/app_bar_main.xml"
     },
     {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\fragment_detailboliche.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\fragment_detailboliche.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/fragment_boliche.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/fragment_boliche.xml"
     },
     {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\fragment_opinionsboliche.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\fragment_opinionsboliche.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/fragment_main_page.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/fragment_main_page.xml"
     },
     {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\fragment_homeboliche.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\fragment_homeboliche.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/app_bar_profile.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/app_bar_profile.xml"
     },
     {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\item_image_boliche.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\item_image_boliche.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/fragment_opineboliche.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/fragment_opineboliche.xml"
     },
     {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\fragment_main_page.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\fragment_main_page.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/fragment_profile.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\fragment_boliche.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\fragment_boliche.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/item_image_boliche.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/item_image_boliche.xml"
     },
     {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\item_boliche.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\item_boliche.xml"
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/fragment_register.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/fragment_detailboliche.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/fragment_detailboliche.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/activity_main.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/fragment_datospersonalesprofile.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/fragment_datospersonalesprofile.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/fragment_categories.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/fragment_categories.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/fragment_actividadprofile.xml",
+        "source": "com.example.myapplication.app-main-58:/layout/fragment_actividadprofile.xml"
     },
     {
         "merged": "com.example.myapplication.app-mergeDebugResources-55:/layout/item_boliche.xml",
         "source": "com.example.myapplication.app-main-58:/layout/item_boliche.xml"
-    },
-    {
-        "merged": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-mergeDebugResources-55:\\layout\\item_opinionboliche.xml",
-        "source": "C:\\Users\\fedep\\.gradle\\daemon\\8.0\\com.example.myapplication.app-main-58:\\layout\\item_opinionboliche.xml"
     }
 ]

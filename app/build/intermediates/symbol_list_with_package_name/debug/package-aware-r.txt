@@ -3001,6 +3001,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable border
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3012,6 +3013,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable button_background
 drawable button_default_background
 drawable button_hovered_background
+drawable button_volverbackground
 drawable category_background
 drawable category_background_white
 drawable design_fab_background
@@ -3035,6 +3037,7 @@ drawable ic_color_selector
 drawable ic_icon_arrow
 drawable ic_icon_boliche
 drawable ic_icon_cambiar
+drawable ic_icon_favorito
 drawable ic_icon_food
 drawable ic_icon_friends
 drawable ic_icon_home
@@ -3052,7 +3055,10 @@ drawable ic_icon_person
 drawable ic_icon_phone
 drawable ic_icon_phone2
 drawable ic_icon_playa
+drawable ic_icon_pregunta
 drawable ic_icon_previa
+drawable ic_icon_profile
+drawable ic_icon_reloj
 drawable ic_icon_rightarrow
 drawable ic_icon_volver
 drawable ic_icon_whatsapp
@@ -3224,9 +3230,11 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_profileFragment_to_profileDatosPersonalesFragment
 id action_registerFragment_to_categoriesFragment
 id action_text
 id actions
+id actividadProfile
 id activity_chooser_view_content
 id add
 id alertTitle
@@ -3239,6 +3247,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appBarContainer
 id appBarMain
 id arc
 id asConfigured
@@ -3247,6 +3256,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id ayudaProfile
 id backButton
 id barrier
 id baseline
@@ -3257,7 +3267,6 @@ id blocking
 id bolicheBoliches
 id bolicheDetailFragment
 id bolicheFragment
-id bolicheHomeFragment
 id bolicheLocation
 id bolicheName
 id bolicheOpineFragment
@@ -3274,6 +3283,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnModificar
+id btnVolver
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3327,6 +3338,7 @@ id custom
 id customPanel
 id cut
 id date_picker_actions
+id datosPersonalesProfile
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -3353,6 +3365,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id dniProfile
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3382,6 +3395,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id favoritoProfile
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3412,12 +3426,17 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id homeFragment
 id honorRequest
 id horizontal_only
 id horrible
 id horribleCount
 id icon
+id iconAyuda
+id iconDatosPersonales
+id iconFavorito
 id iconLocation
+id iconReloj
 id icon_group
 id ifRoom
 id ignore
@@ -3447,6 +3466,7 @@ id line1
 id line3
 id linear
 id linearLayout
+id linearLayout2
 id listMode
 id list_item
 id loadingContact
@@ -3460,7 +3480,6 @@ id logo
 id ltr
 id m3_side_sheet
 id mainButton
-id mainFragment
 id mainPageFragment
 id malo
 id maloCount
@@ -3585,7 +3604,10 @@ id pin
 id position
 id postLayout
 id pressed
+id profileActivity
+id profileDatosPersonalesFragment
 id profileFragment
+id profile_navgraph
 id progress_circular
 id progress_horizontal
 id promedio
@@ -3687,6 +3709,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id telefonoProfile
 id text
 id text2
 id textEnd
@@ -3729,6 +3752,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userImageOpinion
 id userName
 id userNameOpinion
 id vertical_only
@@ -3870,7 +3894,9 @@ layout abc_tooltip
 layout activity_boliche
 layout activity_login
 layout activity_main
+layout activity_profile
 layout app_bar_main
+layout app_bar_profile
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3887,13 +3913,16 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_actividadprofile
 layout fragment_boliche
 layout fragment_categories
+layout fragment_datospersonalesprofile
 layout fragment_detailboliche
 layout fragment_homeboliche
 layout fragment_main_page
 layout fragment_opineboliche
 layout fragment_opinionsboliche
+layout fragment_profile
 layout fragment_register
 layout item_boliche
 layout item_image_boliche
@@ -3964,6 +3993,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 navigation boliche_navgraph
 navigation login_navgraph
+navigation profile_navgraph
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3992,9 +4022,11 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string actividad
 string amigos
 string androidx_startup
 string appbar_scrolling_view_behavior
+string ayuda
 string boliche
 string boliche_title
 string bottom_sheet_behavior
@@ -4007,11 +4039,16 @@ string btn_next
 string btn_opine
 string btn_opinions
 string call_detail
+string cantOpinionsBoliche
+string cantTypeBoliche
 string categories_title
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string datosPersonales
+string descriptionBoliche
+string descriptionOpinion
 string dest_title
 string encuentros
 string error_a11y_label
@@ -4020,6 +4057,8 @@ string excelente
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string favoritos
+string gmail
 string hello
 string hide_bottom_view_on_scroll_behavior
 string horrible
@@ -4130,6 +4169,7 @@ string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
 string muy_bueno
+string nameUserOpinion
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string opinions
@@ -4142,6 +4182,8 @@ string path_password_strike_through
 string playa
 string previa
 string promedio
+string ratingBoliche
+string ratingCountBoliche
 string register_name
 string register_title
 string restaurante
@@ -4154,6 +4196,9 @@ string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
 string sub_title
+string titleBoliche
+string titleOpinion
+string typeSelected
 string user_name
 string whatsapp
 style AlertDialog_AppCompat

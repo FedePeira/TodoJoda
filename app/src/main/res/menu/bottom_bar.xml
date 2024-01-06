@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/mainFragment"
+        android:id="@+id/homeFragment"
         android:icon="@drawable/ic_icon_home"
         android:iconTint="@drawable/ic_color_selector"
         android:itemBackground="@drawable/ic_background_color_selector"
-        android:title="Inicio" />
+        android:title="@string/inicio" />
     <item
-        android:id="@+id/profileFragment"
+        android:id="@+id/profileActivity"
         android:icon="@drawable/ic_icon_person"
         android:iconTint="@drawable/ic_color_selector"
         android:itemBackground="@drawable/ic_background_color_selector"
-        android:title="Perfil" />
+        android:title="@string/perfil" />
 </menu>
