@@ -14,7 +14,7 @@ class ProfileDatosPersonalesFragment: Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val v = inflater.inflate(R.layout.fragment_profile, container, false)
+        val v = inflater.inflate(R.layout.fragment_datospersonalesprofile, container, false)
         return v
     }
 }

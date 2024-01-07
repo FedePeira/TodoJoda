@@ -21,6 +21,8 @@
     <string name="ayuda">Ayuda</string>
     <string name="boliche">Boliche</string>
     <string name="boliche_title">Boliche</string>
+    <string name="btn_back">Volver</string>
+    <string name="btn_modified">Modificar</string>
     <string name="btn_next">Siguiente</string>
     <string name="btn_opine">Opinar</string>
     <string name="btn_opinions">Ver Opiniones</string>
@@ -31,12 +33,14 @@
     <string name="datosPersonales">Datos Personales</string>
     <string name="descriptionBoliche">Descripcion</string>
     <string name="descriptionOpinion">Descripcion de la Opinion</string>
+    <string name="dni">Dni</string>
     <string name="encuentros">Encuentros</string>
     <string name="excelente">Excelente</string>
     <string name="favoritos">Favoritos</string>
     <string name="gmail">Gmail</string>
     <string name="hello">Hola</string>
     <string name="horrible">Horrible</string>
+    <string name="inicio">Inicio</string>
     <string name="logo_title">TodoJoda</string>
     <string name="main_location">Mar del Plata</string>
     <string name="main_titleLocation">Localidad</string>
@@ -45,6 +49,8 @@
     <string name="nameUserOpinion">Nombre</string>
     <string name="opinions">Opiniones</string>
     <string name="passline">Passline</string>
+    <string name="perfil">Perfil</string>
+    <string name="phone">Telefono</string>
     <string name="playa">Playa</string>
     <string name="previa">Previa</string>
     <string name="promedio">Promedio</string>

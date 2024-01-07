@@ -11,9 +11,23 @@
         <action
             android:id="@+id/action_profileFragment_to_profileDatosPersonalesFragment"
             app:destination="@id/profileDatosPersonalesFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_profileActividadFragment"
+            app:destination="@id/profileActividadFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_profileAyuda"
+            app:destination="@id/profileAyuda" />
     </fragment>
     <fragment
         android:id="@+id/profileDatosPersonalesFragment"
         android:name="com.example.myapplication.profileFragments.ProfileDatosPersonalesFragment"
         android:label="ProfileDatosPersonalesFragment" />
+    <fragment
+        android:id="@+id/profileAyuda"
+        android:name="com.example.myapplication.profileFragments.ProfileAyudaFragment"
+        android:label="ProfileAyuda" />
+    <fragment
+        android:id="@+id/profileActividadFragment"
+        android:name="com.example.myapplication.profileFragments.ProfileActividadFragment"
+        android:label="ProfileActividadFragment" />
 </navigation>

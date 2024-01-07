@@ -45,6 +45,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
+                    android:id="@+id/openActividad"
                     android:layout_width="29dp"
                     android:layout_height="20dp"
                     android:src="@drawable/ic_icon_next"
@@ -86,6 +87,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
+                    android:id="@+id/openDatosPersonales"
                     android:layout_width="29dp"
                     android:layout_height="20dp"
                     android:src="@drawable/ic_icon_next"
@@ -127,6 +129,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
+                    android:id="@+id/openAyuda"
                     android:layout_width="29dp"
                     android:layout_height="20dp"
                     android:src="@drawable/ic_icon_next"
@@ -167,6 +170,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
+                    android:id="@+id/openFavoritos"
                     android:layout_width="29dp"
                     android:layout_height="20dp"
                     android:src="@drawable/ic_icon_next"

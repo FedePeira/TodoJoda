@@ -71,10 +71,13 @@
     <string name="favoritos">Favoritos</string>
     <string name="gmail">Gmail</string>
 
+    <!--  Profiles Pages  -->
+    <string name="btn_modified">Modificar</string>
+    <string name="btn_back">Volver</string>
+
     <!--  Datos Personales Profile Page  -->
     <string name="dni">Dni</string>
     <string name="phone">Telefono</string>
-    <string name="btn_modified">Dni</string>
-    <string name="btn_back">Telefono</string>
+
 
 </resources>

@@ -1,4 +1,4 @@
-#Sat Jan 06 18:09:11 ART 2024
+#Sun Jan 07 18:28:02 ART 2024
 base.0=D\:\\Fede Ort\\Portafolio\\AndroidStudio\\TodoJoda\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\Fede Ort\\Portafolio\\AndroidStudio\\TodoJoda\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\Fede Ort\\Portafolio\\AndroidStudio\\TodoJoda\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
